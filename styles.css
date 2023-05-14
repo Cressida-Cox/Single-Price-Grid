@@ -142,17 +142,19 @@ ul {
 footer {
   font-size: 11px;
   justify-self: center;
-  text-decoration: none;
   position: fixed;
   bottom: 25px;
 }
 
 footer a {
-  color: hsl(228, 45%, 44%);
+  color: #000;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: hsl(228, 45%, 44%);
+  color: var(--primary-color);
+  font-size: 12px;
+  transition: 150ms ease-in-out;
 }
 
 @media (max-width: 600px) {
