@@ -154,3 +154,73 @@ footer a {
 footer a:hover {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    max-height: 1160px;
+    margin: 40px;
+  }
+
+  .main_section-one {
+    grid-column-end: unset;
+  }
+
+  .main_section-two {
+    border-bottom-left-radius: 0px;
+    text-align: center;
+  }
+
+  .main_section-three {
+    max-width: 500px;
+    border-bottom-left-radius: 8px;
+  }
+
+  footer {
+    margin-bottom: 40px;
+    position: unset;
+  }
+}
+
+@media (max-width: 415px) {
+  article {
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .main_section-one p {
+    font-size: 14px;
+  }
+
+  .main_section-two {
+    text-align: left;
+  }
+
+  button {
+    padding: 15px 97px;
+  }
+}
+
+@media (max-width: 394px) {
+  button {
+    padding: 15px 86px;
+  }
+}
+
+@media (max-width: 376px) {
+  .main_section-two p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 15px 71px;
+  }
+}
